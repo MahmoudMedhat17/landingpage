@@ -177,11 +177,6 @@ nav .navMob, nav .icons{
     width: 476px;
 }
 
-/* .sectionTwo .mobImg{
-    width: 600px;
-    height: 600px;
-} */
-
 /*Second page style section3*/
 .sectionThree{
     display: flex;
@@ -190,11 +185,6 @@ nav .navMob, nav .icons{
     margin-top: 100px;
     padding: 0 30px;
 }
-
-/* .sectionThree img{
-    width: 600px;
-    height: 600px;
-} */
 
 .sectionThree .mainContent h1{
     font-size: 30px;
