@@ -1,22 +1,17 @@
-const images = [
-    {
-        id:1,
-        title:"Web Application",
-        image:"/images/website-content 1.png"
-    },
-    {
-        id:2,
-        title:"SEO",
-        image:"/images/seo-tag 1.png"
-    },
-    {
-        id:3,
-        title:"AR/VR Solutions",
-        image:"/images/immersive 1.png"
-    },
-    {
-        id:4,
-        title:"Mobile Applications",
-        image:"/images/coding (1) 1.png"
+const toggleBtn = document.querySelector(".icons");
+    const navMob = document.querySelector(".navMob");
+    const menuIcon = document.querySelector(".menuIcon");
+    const closeIcon = document.querySelector(".closeIcon");
+    const toggleFunction = () =>{
+        if(navMob.classList.contains("active")){
+            navMob.classList.remove("active");
+            menuIcon.style.display = "inline";
+            closeIcon.style.display = "none";
+        }
+        else{
+            navMob.classList.add("active");
+            menuIcon.style.display = "none";
+            closeIcon.style.display = "inline";
+        }
     }
-]
+    toggleBtn.addEventListener("click", toggleFunction);
